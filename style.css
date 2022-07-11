@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  align-items: center;
+}
+
+.btn {
+  position: absolute;
+  top: 10rem;
+  left: 50rem;
+  width: 50px;
+  height: 20px;
+  color: aliceblue;
+  background-color: blue;
+  border-radius: 10px;
+  border: blue;
+  cursor: pointer;
+}
+
+.modal {
+  position: absolute;
+  top: 10rem;
+  left: 45rem;
+  height: 300px;
+  width: 300px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 21px 21px 43px #b1b1b1, -21px -21px 43px #ffffff;
+}
+
+#text {
+  position: absolute;
+  top: 2rem;
+  left: 4rem;
+  width: 200px;
+  height: 12%;
+  border: none;
+  background: none;
+  border-bottom: 1px solid grey;
+}
+
+#textl {
+  position: absolute;
+  top: 2.5rem;
+  left: 0.5rem;
+}
+
+#email {
+  position: absolute;
+  top: 5rem;
+  left: 4rem;
+  width: 200px;
+  height: 12%;
+  border: none;
+  background: none;
+  border-bottom: 1px solid grey;
+}
+
+#emaill {
+  position: absolute;
+  top: 5.5rem;
+  left: 0.5rem;
+}
+
+#textarea {
+  position: absolute;
+  top: 9rem;
+  left: 0.5rem;
+  width: 280px;
+  height: 35%;
+  border: none;
+  background: none;
+  border-bottom: 1px solid grey;
+}
+
+.contact {
+  position: absolute;
+  top: 16.5rem;
+  left: 7rem;
+  width: 20%;
+  height: 10%;
+  background-color: #b1b1b1;
+  color: #fff;
+  border-radius: 10px;
+  border: #b1b1b1;
+  cursor: pointer;
+}
+
+.fa {
+  position: absolute;
+  top: 0.4rem;
+  left: 17.7rem;
+  cursor: pointer;
+}
+
+@media (max-width: 375px) {
+  html {
+    font-size: 85%;
+  }
+
+  .modal {
+    position: absolute;
+    top: 15rem;
+    left: 2.5rem;
+  }
+
+  .btn {
+    position: absolute;
+    top: 20rem;
+    left: 12rem;
+  }
+  .fa {
+    position: absolute;
+    top: 0.6rem;
+    left: 20.8rem;
+    cursor: pointer;
+  }
+
+  .contact {
+    position: absolute;
+    top: 18rem;
+    left: 8rem;
+  }
+}
